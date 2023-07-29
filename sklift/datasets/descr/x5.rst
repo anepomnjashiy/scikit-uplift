@@ -17,10 +17,26 @@ Data contains several parts:
 * clients.csv: general info about clients;
 * purchases.csv: clients’ purchase history prior to communication.
 
+.. image:: ../../_static/images/x5_table_scheme.png
+    :alt: X5 table schema
+
 Fields
 ################
 
 * treatment_flg (binary): information on performed communication
 * target (binary): customer purchasing
 
+Key figures
+################
+
+* Format: CSV
+* Size: 647M (compressed) 4.17GB (uncompressed)
+* Rows:
+
+    * in 'clients.csv': 400,162
+    * in 'purchases.csv': 45,786,568
+    * in 'uplift_train.csv': 200,039
+
+* Response Ratio: .62
+* Treatment Ratio: .5
 
